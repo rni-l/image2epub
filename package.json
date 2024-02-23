@@ -1,0 +1,26 @@
+{
+  "name": "image2epub",
+  "version": "1.0.0",
+  "description": "A cli that converts image files to EPUB format. Supports batch conversion.",
+  "main": "index.js",
+  "bin": {
+    "image2epub": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rni-l/image2epub.git"
+  },
+  "author": "rni-l",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rni-l/image2epub/issues"
+  },
+  "homepage": "https://github.com/rni-l/image2epub#readme",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "epub-gen": "^0.1.0"
+  }
+}
